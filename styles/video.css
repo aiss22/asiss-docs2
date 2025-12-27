@@ -14,8 +14,8 @@
 }
 
 .video-info-grid{
-  display: grid;
-  grid-template-columns: 50px 1fr;
+  display: grid;/*网格*/
+  grid-template-columns: 50px 1fr;/*两个平行格子一个50px一个1fr自适应*/
 }
 
 .profile-picture{
