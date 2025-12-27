@@ -1,0 +1,76 @@
+.but1{
+    background-color: rgb(227, 164, 181);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: opacity 0.15s;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .but1:hover{
+    opacity: 0.8;
+
+  }
+
+  .but1:active{
+   opacity: 0.5;
+  }
+
+  .but2{
+    background-color: white;
+    color: rgb(56, 121, 219);
+    border-color: rgb(22, 138, 233);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    transition:background-color 0.15s,color 0.15s;
+  }
+
+  .but2:hover{
+    
+    background-color:rgb(22, 138, 233);;
+    color: white;
+    
+  }
+
+  .but2:active{
+    opacity: 0.5;
+  }
+
+  .but3{
+    background-color: rgb(255, 140, 0);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    vertical-align: top;
+    transition: box-shadow 0.15s;
+  }
+
+  .but3:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  }
+
+  .but3:active{
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position Practice</title>
+</head>
+<body style="
+  height: 3000px;
+  padding-top: 60px;
+  padding-left: 80px;
+">
+  <!--position:fixed固定位置-下面写固定在哪个位置-->
+  <!--z-index:100-->
+  <div style="
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 100;
+    ">header</div>
+
+  <div style="
+    background-color: green;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    width: 72px;
+  ">
+    sidebar
+    <!--position: absolute;绝对定位-固定在另一个元素之上-->
+    <div style="
+    position: absolute;
+    background-color: red;
+    color: white;
+    right: 0px;
+    top: 0;
+  ">
+    X
+  </div>
+  </div>
+
+  <div style="
+    position: absolute;
+    background-color: red;
+    color: white;
+    right: 10px;
+  ">
+    absolute
+  </div>
+
+  <div style="
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static;
+    ">div1</div>
+  <!--position: relative;相对定位-成为另一个元素的基准-另一个元素根据这个元素来定位-->
+  <div style="
+  background-color: lightpink;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  ">
+  div2
+  <!--position: absolute;绝对定位-固定在另一个元素之上-->
+  <div style="
+    position: absolute;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    right: 10px;
+    bottom: 10px;
+  ">
+    13:05
+  </div>
+  </div>
+</body>
+</html>
